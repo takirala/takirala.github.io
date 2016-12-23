@@ -1,7 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Experience"
+    url: /exp/
+  - title: "About"
+    url: /about/
+  - title: "Resume"
+    url: https://drive.google.com/file/d/0B1h2NS2MdHe_MGltdl9GaVBTbmM/view?usp=sharing
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
