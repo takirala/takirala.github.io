@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Experience"
-    url: /exp/
-  - title: "About"
-    url: /about/
+    url: /experience/
+  - title: "Projects"
+    url: /projects/
   - title: "Resume"
     url: https://drive.google.com/file/d/0B1h2NS2MdHe_MGltdl9GaVBTbmM/view?usp=sharing
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

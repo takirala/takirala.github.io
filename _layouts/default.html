@@ -11,16 +11,21 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
     {% include browser-upgrade.html %}
+    
+    {% comment %}
     {% include masthead.html %}
+    {% endcomment %}
 
     {{ content }}
 
+    {%comment%}
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
+    {%endcomment%}
 
     {% include scripts.html %}
 

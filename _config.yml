@@ -77,9 +77,9 @@ analytics:
 
 # Site Author
 author:
-  name             : 
+  name             : Tarun Akirala
   avatar           : "/assets/images/univ.jpg"
-  bio              : "Programmer, Tech Enthusiast, Book Worm, Runner"
+  bio              : "computer nerd"
   location         : "Gainesville, FL"
   email            : takirala@ufl.edu
   uri              : 
@@ -96,11 +96,12 @@ author:
   lastfm           :
   linkedin         : tarunguptaakirala
   pinterest        :
-  soundcloud       :
+  skype            : tarun.gupta.akirala
+  soundcloud       : tarun-gupta-akirala
   stackoverflow    : 1517133/takirala
   steam            :
   tumblr           :
-  twitter          : guptat59
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -236,11 +237,27 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: ""
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/takirala/"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/tarunguptaakirala"
+  - title: "stack-overflow"
+    url: "https://stackoverflow.com/users/1517133/takirala"
+  - title: "skype"
+    url: "skype:tarun.gupta.akirala?call"
+  - title: "rss"
+    url: "/feed.xml"
