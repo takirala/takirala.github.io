@@ -39,7 +39,7 @@
                 {% else %}
                   class = "inactive-sideitem"
                 {% endif %} > 
-                {{item.title}} 
+                {{item.title}}
               </a> 
             </li>
           {% endfor %}
@@ -49,7 +49,7 @@
     
     <hr>
 
-    <ul class="social-icons">
+    <ul class="social-icons no-padding">
       {% if author.linkedin %}
         <a href="https://www.linkedin.com/in/{{ author.linkedin }}">
         <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i></a>
@@ -63,6 +63,11 @@
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
         <i class="fa fa-fw fa-github"></i></a>
+      {% endif %}
+
+      {% if author.github %}
+        <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs">
+        <i class="fa fa-fw fa-soundcloud" aria-hidden="true"></i></a>
       {% endif %}
 
     </ul>
