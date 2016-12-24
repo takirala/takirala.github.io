@@ -51,26 +51,28 @@
 
     <ul class="social-icons no-padding">
       {% if author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ author.linkedin }}">
+        <a target="_blank" href="https://www.linkedin.com/in/{{ author.linkedin }}">
         <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i></a>
       {% endif %}
 
       {% if author.stackoverflow %}
-        <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
+        <a target="_blank" href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
         <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
       {% endif %}
 
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
+        <a target="_blank" href="https://github.com/{{ author.github }}" itemprop="sameAs">
         <i class="fa fa-fw fa-github"></i></a>
       {% endif %}
 
-      {% if author.github %}
-        <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs">
+      {% if author.soundcloud %}
+        <a target="_blank" href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs">
         <i class="fa fa-fw fa-soundcloud" aria-hidden="true"></i></a>
       {% endif %}
 
     </ul>
+    <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
@@ -87,6 +89,8 @@
         </li>
       {% endif %}
     </ul>
+
+    </div>
 
   </div>
 
