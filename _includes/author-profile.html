@@ -48,13 +48,11 @@
 
               <a href="{{item.url}}" 
                 {% if page.url == item.url or blog == true%} 
-                  class = "active-sideitem {{soFar}}" 
+                  class = "active-sideitem" 
                   {%assign soFar = true%}
                 {% else %}
-                  class = "inactive-sideitem {{soFar}}"
-                {% endif %} > 
-                {{item.title}}
-              </a> 
+                  class = "inactive-sideitem"
+                {% endif %}>{{item.title | strip}}</a> 
             </li>
           {% endfor %}
         </ul>
