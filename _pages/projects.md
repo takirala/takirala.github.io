@@ -41,9 +41,9 @@ Large Scale Object Recognition Using Deep Learning
 
 
 
-<h2>Information Propogation {% include github_watch project="Gossip" %}</h2>
+<h2>Information Propagation {% include github_watch project="Gossip" %}</h2>
 - An akka-actor based network implementation that micmics a distributed sensor topology.
-- Gossip protocol is used for information propagation. This is used for rumor propogation (E.g.: Start of a wild fire) in real life.
+- Gossip protocol is used for information propagation. This is used for rumor propagation (E.g.: Start of a wild fire) in real life.
 - Push-Sum protocol is used for aggregation analysis in a sensor network. This efficient solution was able to simulate one lakh nodes on a single quad core machine.
 - Calculated convergence rates in sparse topologies like line and 2D grid and dense topologies like star and 3D grid.
 
