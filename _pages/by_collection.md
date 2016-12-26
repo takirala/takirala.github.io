@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Posts by Collection"
-permalink: /blog/collection/
+permalink: /collection/
 author_profile: true
 ---
 

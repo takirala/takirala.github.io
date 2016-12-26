@@ -31,6 +31,7 @@
     <div class="container">
       <nav class="main-nav">
         <ul>
+          {% assign soFar = false %}
           {% for item in site.data.navigation.main %}
             <li>
               {% if page.url contains "blog" and item.title == "Blog" %}
@@ -39,11 +40,18 @@
                 {% assign blog = false }} %}
               {% endif%}
 
+              {% if soFar == false and item.title == "Blog" %}
+                {% assign blog = true }} %}
+              {% else %}
+                {% assign blog = false }} %}
+              {% endif%}
+
               <a href="{{item.url}}" 
                 {% if page.url == item.url or blog == true%} 
-                  class = "active-sideitem"
+                  class = "active-sideitem {{soFar}}" 
+                  {%assign soFar = true%}
                 {% else %}
-                  class = "inactive-sideitem"
+                  class = "inactive-sideitem {{soFar}}"
                 {% endif %} > 
                 {{item.title}}
               </a> 

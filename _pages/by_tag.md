@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blog/tags/
+permalink: /tags/
 title: "Posts by Tags"
 author_profile: true
 ---

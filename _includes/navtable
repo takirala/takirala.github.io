@@ -8,12 +8,12 @@
   </a>
  </div>
  <div class="navtable-col">
-  <a href="/blog/tags/">
+  <a href="/tags/">
    <i class="fa fa-tags" aria-hidden="true"> Tags</i>
   </a>
  </div>
  <div class="navtable-col">
-  <a href="/blog/categories/">
+  <a href="/categories/">
    <i class="fa fa-suitcase" aria-hidden="true"> Category</i>
   </a>
  </div>
