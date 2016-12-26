@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "Tarun Gupta Akirala"
-title_separator          : "-"
+title_separator          : "/"
 name                     : ""
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -46,6 +46,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+resumePDF                : https://drive.google.com/open?id=0B1h2NS2MdHe_MGltdl9GaVBTbmM
 
 # SEO Related
 google_site_verification :
