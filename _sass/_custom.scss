@@ -42,3 +42,18 @@
 .alternate:nth-child(2n) img {
     float: right;
 }
+
+.navtable-row {
+	height: auto;
+	overflow: auto;
+}
+
+.navtable-col {
+	float: left;
+	margin: 0 2%;
+}
+
+.navtable-last {
+	float: right;
+	margin: 0 2%;
+}

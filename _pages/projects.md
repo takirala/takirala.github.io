@@ -5,8 +5,6 @@ layout: single
 title: Projects
 modified: 2016-12-19
 ---
-
-
 <h2> FeedMe {% include github_watch project="FeedMe" %}</h2>
 A Smart Food Cluster developed using IoT and Intel Edison
 

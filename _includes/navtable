@@ -1,0 +1,20 @@
+<div class="navtable-row">
+ <div class="navtable-col">
+  Group By : 
+ </div>
+ <div class="navtable-col">
+  <a href="/blog/">
+   <i class="fa fa-clock-o" aria-hidden="true"> Year</i>
+  </a>
+ </div>
+ <div class="navtable-col">
+  <a href="/blog/tags/">
+   <i class="fa fa-tags" aria-hidden="true"> Tags</i>
+  </a>
+ </div>
+ <div class="navtable-col">
+  <a href="/blog/categories/">
+   <i class="fa fa-suitcase" aria-hidden="true"> Category</i>
+  </a>
+ </div>
+</div>

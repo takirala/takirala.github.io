@@ -5,6 +5,9 @@ layout: single
 title: Experience
 modified: 2016-10-10
 ---
+
+{% include toc %}
+
 ## Front-End Developer Intern
 *June '16 – Aug '16, [Sabre](https://www.sabre.com/), Texas*
 
