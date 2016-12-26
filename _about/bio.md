@@ -11,10 +11,7 @@ sidebar:
     image_alt: "logo"
     text: "Software Engineer"
 gallery:
-  - image_path: assets/images/marston.png
-    description: ""
-  - image_path: assets/images/bits.jpg
-    description: ""
+  - bio: true
 ---
 
 {% include gallery zigzag="true" %}

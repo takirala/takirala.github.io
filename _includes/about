@@ -1,6 +1,6 @@
 <div>
 	<p style="text-align:justify">
-	I am currently pursuing Master of Science in Computer Science from University of Florida. I have developed a comprehensive skill set in various technologies over my two years of professional experience, three internships, Undergraduate degree from BITS Pilani and current graduate academic experience.
+	I am currently pursuing Master of Science in Computer Science from University of Florida. I have developed a comprehensive skill set in various technologies over my two years of professional experience, three internships, Undergraduate degree from BITS Pilani and current graduate academic experience. <br/> I wait for the long road to be explored and I know I will cherish the rest of the path if it has a <i>console</i> that I can type in to.
 	</p>
 
 	<div class="alternate">
@@ -18,7 +18,7 @@
 
 	<div class="alternate">
 	    <img class="zigzag-image" src="/assets/images/bits.jpg" alt="">
-	    <p>At bits.</p>
+	    <p>Pursued my Bachelors in Information Systems from India's <a href="https://en.wikipedia.org/wiki/Birla_Institute_of_Technology_and_Science" target="blank">best</a> private engineering institute, <a href="http://www.bits-pilani.ac.in/" target="blank">BITS Pilani</a>. I was the financial coordinator of <a href="http://www.bits-spree.org/" target="blank">Spree</a> '11 and was a member of <a href="https://www.facebook.com/abhigyaanbpgc/" target="blank">Abhigyaan</a>, a program to educate the underprivileged. <br/> I learnt about life, computers and met the most smartest and craziest people of my life here. <h4 style="float:right">Once a bitsian, always a bitsian.</h4></p>
 	</div>
 
 	<div class="alternate">
@@ -28,7 +28,7 @@
 
 	<div class="alternate">
 	    <img class="zigzag-image" src="/assets/images/imimobile.jpg" alt="">
-	    <p>During my internship at IMImobile, I worked on web service orchestration in which I used open source tools like OSWorkflow and BPEL for which I had to put a lot of research efforts. After presenting my project as Proof of Concept, I was appreciated for my contributions and was offered a position in R&D Department.
+	    <p>During my internship at <a href="https://www.imimobile.com/" target="blank">IMImobile</a>, I worked on web service orchestration in which I used open source tools like OSWorkflow and BPEL for which I had to put a lot of research efforts. After presenting my project as Proof of Concept, I was appreciated for my contributions and was offered a position in R&D Department.
 		
 		<br/>
 		As a software engineer, I was the AAA (authentication, authorization, and accounting) module owner for the  Real Time Messaging System that can handle 35+ Million transactions per day.</p>
