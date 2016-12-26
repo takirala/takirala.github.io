@@ -1,6 +1,6 @@
 ---
 title: "Hello World"
-related: true
+comments: true
 categories:
   - Uncategorized
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Happy Christams"
 related: true
+comments: true
 categories:
   - Thoughts
 tags:

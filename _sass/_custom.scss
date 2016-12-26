@@ -1,8 +1,12 @@
 .active-sideitem {
-	font-weight: bold;
-	color: #000;
 	font-size: 1.25em;
 	margin: 7px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #fff;
+    font-weight: bold;
+    background: #7a8288;
+    border-radius: 4px;
 }
 
 .inactive-sideitem {
