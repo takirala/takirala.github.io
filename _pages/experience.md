@@ -3,6 +3,7 @@ permalink: /experience/
 author_profile: true
 layout: single
 title: Experience
+comments: false
 modified: 2016-10-10
 ---
 
