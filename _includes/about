@@ -1,0 +1,37 @@
+<div>
+	<p style="text-align:justify">
+	I am currently pursuing Master of Science in Computer Science from University of Florida. I have developed a comprehensive skill set in various technologies over my two years of professional experience, three internships, Undergraduate degree from BITS Pilani and current graduate academic experience.
+	</p>
+
+	<div class="alternate">
+	    <img class="zigzag-image" src="/assets/images/marston.png" alt="">
+	    <p>
+	      I am currently pursuing my Masters in Computer Science at University of Florida. I am an extremely passionate programmer. Really smart at understanding how things work. I have taken some very interesting courses such as
+	      <a href="http://www.andyli.ece.ufl.edu/index.php/bigdata/">BigData Ecosystems</a>, 
+	      <a href="http://cise.ufl.edu/class/cot5405fa15/">Analysis of Algorithms</a>, 
+	      <a href="http://www.cise.ufl.edu/~helal/classes/s16/index.html">Mobile & Pervasive Computing</a>, 
+	      <a href="http://www.cise.ufl.edu/~sahni/cop5536/">Advanced Data Structures</a>, 
+	      <a href="http://www.cise.ufl.edu/~mschneid/Teaching/CIS4930+CIS6930_Fall2016/CIS4930+CIS6930_Fall2016.html">Advanced Databases</a>, 
+	      Distributed Operating Systems, Computer Neworks etc., I worked on Deep Neural Networks (Built and trained one myself), distributed systems, Internet of Things and advance database systems.
+	    </p>
+	</div>
+
+	<div class="alternate">
+	    <img class="zigzag-image" src="/assets/images/bits.jpg" alt="">
+	    <p>At bits.</p>
+	</div>
+
+	<div class="alternate">
+	    <img class="zigzag-image" src="/assets/images/sabre.jpg" alt="">
+	    <p>Last Summer, I held an Internship in Sabre at Dallas. I have worked on developing a white label solution as our Intern case study. Although I never worked on Front-End technologies before, I accepted the challenge to build a Frontend using React JS. I learnt everything from scratch and two months down the line, we had a working prototype of a bidding platform and an auto optimizer that we presented to the executives ( <a target="blank" href="https://youtu.be/Vwh_Ad4NuJ8">Watch!</a> ) and my team stood in the second position out of the 18 teams participated.</p>
+	</div>
+
+	<div class="alternate">
+	    <img class="zigzag-image" src="/assets/images/imimobile.jpg" alt="">
+	    <p>During my internship at IMImobile, I worked on web service orchestration in which I used open source tools like OSWorkflow and BPEL for which I had to put a lot of research efforts. After presenting my project as Proof of Concept, I was appreciated for my contributions and was offered a position in R&D Department.
+		
+		<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		I was the AAA (authentication, authorization, and accounting) module owner for the  Real Time Messaging System that handled more than 100 Million transactions per day.</p>
+	</div>
+</div>

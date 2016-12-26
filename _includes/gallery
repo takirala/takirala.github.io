@@ -12,9 +12,13 @@
   {% assign gallery_layout = '' %}
 {% endif %}
 
+
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    {% if img.url %}
+    {% if include.zigzag %}
+      {% include about %}
+      {% break %}
+    {% else if img.url %}
       <a href=
         {% if img.url contains "://" %}
           "{{ img.url }}"

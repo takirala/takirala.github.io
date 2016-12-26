@@ -14,3 +14,31 @@
 .no-padding {
 	padding: 0;
 }
+
+.zigzag-image {
+	width: 20% !important;
+	display: block;
+	margin: 2%;
+}
+
+.alternate {
+    clear: both;  /* make every new alternate startbeneath the previous */
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.alternate img {
+    display: block;
+    width:25% !important;
+    float: right;
+}
+
+/* float odd pictures to the left */
+.alternate:nth-child(2n+1) img {
+    float: left;
+}
+
+/* float even pictures to the right */
+.alternate:nth-child(2n) img {
+    float: right;
+}

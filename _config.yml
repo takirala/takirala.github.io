@@ -16,7 +16,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 180
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : Tarun Akirala
   avatar           : "/assets/images/univ.jpg"
-  bio              : "computer nerd"
+  bio              : "Computer Passionista"
   location         : "Gainesville, FL"
   email            : takirala@ufl.edu
   uri              : 
@@ -237,27 +237,35 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: ""
+      type: "pages"
     values:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: "about"
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
-##################
-# Social Buttons #
-##################
+# For collections
 
-social:
-  - title: "github"
-    url: "https://github.com/takirala/"
-  - title: "linkedin"
-    url: "https://linkedin.com/in/tarunguptaakirala"
-  - title: "stack-overflow"
-    url: "https://stackoverflow.com/users/1517133/takirala"
-  - title: "skype"
-    url: "skype:tarun.gupta.akirala?call"
-  - title: "rss"
-    url: "/feed.xml"
+collections:
+  about:
+    output: true
+    permalink: /
