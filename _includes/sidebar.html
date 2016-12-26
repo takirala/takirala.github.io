@@ -1,7 +1,7 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% comment %}if page.sidebar %}{% endcomment %}
+  {% if page.sidebar %}{% comment %}{% endcomment %}
   {% for s in page.sidebar %}
     {% if s.image %}
       <img src=
@@ -23,6 +23,6 @@
   {% if page.sidebar.nav %}
     {% include nav_list nav=page.sidebar.nav %}
   {% endif %}
-  {% comment %}{% endif %}{% endcomment %}
+  {% endif %}{% comment %}{% endcomment %}
   </div>
 {% endif %}

@@ -61,3 +61,17 @@
 	float: right;
 	margin: 0 2%;
 }
+
+.toc-nav-flow {
+	text-align: center;
+    li {
+    	padding: 0em;
+    }
+	@media screen and (max-width: 1024px) {
+    	text-align: center;
+        li {
+        	display: inline;
+        	padding: 0 2em;
+        }
+	}
+}
