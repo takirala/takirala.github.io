@@ -8,12 +8,12 @@ tags:
   - Review
 ---
 
-Last week, I read this [post](https://news.ycombinator.com/item?id=13249675) on HN. I decided I would give this book a try and it was really fun reading  [Computer Science Bottom Up](https://www.bottomupcs.com/
+Last week, I read this [post](https://news.ycombinator.com/item?id=13249675) on HN. I decided I would give this book a try and it was really fun reading [Computer Science Bottom Up](https://www.bottomupcs.com/
 ).
 
  **Thank you Ian Wienand for a wonderful read!**
 
-There were many areas in the book where one may felt *I knew this before but I never explicitly analysed my thoughts on this*. Some of such moments for me are listed here in random order (with excerpts _copied_ from the book):
+There were many areas in the book where one may feel  *"I knew this before but I never explicitly analysed my thoughts on this"*. Some of such moments for me are listed here in random order (with excerpts _copied_ from the book):
 
 * Notion of Everything is a file in UNIX.
 * pipe (\|) is a fundamental IPC.
