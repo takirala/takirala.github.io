@@ -16,7 +16,7 @@ Last week, I read this [post](https://news.ycombinator.com/item?id=13249675) on 
 There were many areas in the book where one may felt *I knew this before but I never explicitly analysed my thoughts on this*. Some of such moments for me are listed here in random order (with excerpts _copied_ from the book):
 
 * Notion of Everything is a file in UNIX.
-* pipe (|) is a fundamental IPC.
+* pipe (\|) is a fundamental IPC.
 
   I have always used pipe in bash scripts and made two process communicate with each other several times, but never thought it is a sort of Inter process communication. Wow.
 
