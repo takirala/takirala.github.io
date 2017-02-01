@@ -46,7 +46,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
-resumePDF                : https://drive.google.com/open?id=0B1h2NS2MdHe_MGltdl9GaVBTbmM
+resumePDF                : https://drive.google.com/open?id=0B1h2NS2MdHe_Mzd1OGNNUW1ERFk
 
 # SEO Related
 google_site_verification :
