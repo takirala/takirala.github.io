@@ -19,6 +19,11 @@ Large Scale Object Recognition Using Deep Learning
 - Built and trained a neural network to recognize 80+ object classes using 328,000 images with Caffe & py-faster-rcnn.
 
 
+<h2> Travel Gator - Facebook Bot {% include github_watch project="TravelGator" %}</h2>
+- This FB messenger chatbot interacts with the user whenever it is prompted to by the user.
+- Parses the location of user (can override with any location). Based on this, it gives a suggestion of 10 possible places to visit based on the ratings of the places fetched using the Google Places API.
+
+
 
 <h2> Secure Facebook {% include github_watch project="SecureFB" %}</h2>
 - Designed a distributed system using spray-can framework and akka actor model that simulates Facebook server.
